@@ -25,7 +25,7 @@ Notes:
 The two strings will be the same length.
 */
 
-function neutralise(s1, s2) {
+function neutralise(s1: string, s2: string): string {
   let output = '';
 
   for (let i = 0; i < s1.length; i++) {
