@@ -8,6 +8,7 @@ Given a non-empty array of integers, return the result of multiplying the values
 const grow = (arr: number[]): number =>
   arr.reduce((acc, curr) => acc * curr, 1);
 
+// Solution 2
 const grow2 = (arr: number[]): number => {
   let result = 1;
 
